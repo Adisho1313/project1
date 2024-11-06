@@ -1,0 +1,39 @@
+.call-graph-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .cy-container {
+    width: 100%;
+    height: 600px;
+    border: 1px solid #ccc;
+    margin: 20px 0;
+  }
+  .highlight {
+    background-color: yellow; /* or any color of your choice */
+    border-color: red; /* or any border color */
+  }
+  
+  .traversal-controls, .path-controls, .zoom-controls {
+    margin-bottom: 20px;
+  }
+  
+  .traversal-button, .zoom-button {
+    padding: 10px 15px;
+    margin: 0 10px;
+    background-color: #0074D9;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .traversal-button:hover, .zoom-button:hover {
+    background-color: #005bb5;
+  }
+  
+  .shortest-path-result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: green;
+  }
+  
